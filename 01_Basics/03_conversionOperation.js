@@ -21,5 +21,50 @@
 
 let someNumber = 33
 let stringNumber = String (someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+//*********** Operators ********* */
+
+let value =3
+let negValue =-value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1="hello"
+let str2=" adi"
+let str3 = (str1 + str2) //subtraction is not possible  
+
+// console.log(str3);      //lefft to right base on the data type
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+// console.log((3+4)*5%3);
+
+//In above first is string then all is string ,
+//if the number then all next number
+
+// console.log(true);  
+// console.log(+true); 
+// console.log(-true);
+// console.log(+"");
+
+// let num1=2,num2=4,num3=6
+
+// num4=num1+num2+num3
+// console.log(num4)
+
+let num1,num2,num3
+num1=num2=num3=2+2
+console.log(num1)
+
+let gameCounter=100
+++gameCounter;  //Pre-increment and Post-increment
+console.log(gameCounter)
